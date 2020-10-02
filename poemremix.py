@@ -21,7 +21,7 @@ def lines_printed_random(words):
         print(words[line_index])
 
 #Lines Custom
-
-
-
-
+f=open('poem.txt')
+lines=f.readlines()
+print (lines[25])
+print (lines[29])
