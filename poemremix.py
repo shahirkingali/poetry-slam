@@ -7,10 +7,21 @@ for element in lines:
     print(element)
 
 #Lines Backward
-textfile = open("poem.txt")
-lines = textfile. readlines()
+def lines_printed_backward():
+    poem = open("poem.txt")
+    lines = poem.readlines()
 for line in reversed(lines):
     print(line)
-textfile. close()
 
 #Lines Random
+def lines_printed_random(words):
+    random_lines = len(words)
+    for i in range(len(words)):
+        line_index = random.randint(1, random_lines-1)
+        print(words[line_index])
+
+#Lines Custom
+
+
+
+
